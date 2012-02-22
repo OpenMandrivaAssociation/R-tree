@@ -9,10 +9,9 @@ Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-29.tar.gz
-Requires:         R-grDevices R-graphics R-stats 
-Requires:         R-MASS 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-grDevices R-graphics R-stats
-BuildRequires:    R-MASS 
+Requires:         R-grDevices R-graphics R-stats R-MASS
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-grDevices R-graphics R-stats R-MASS
 
 %description
 Classification and Regression Trees.
