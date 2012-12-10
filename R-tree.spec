@@ -9,9 +9,10 @@ Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-29.tar.gz
-Requires:         R-grDevices R-graphics R-stats R-MASS
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-grDevices R-graphics R-stats R-MASS
+Requires:         R-grDevices R-graphics R-stats 
+Requires:         R-MASS 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-grDevices R-graphics R-stats
+BuildRequires:    R-MASS 
 
 %description
 Classification and Regression Trees.
@@ -42,3 +43,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/po
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0_29-1
++ Revision: 775318
+- Import R-tree
+- Import R-tree
+
