@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.0.32
+Version:          1.0.33
 Release:          1
 Summary:          Classification and regression trees
 Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/Archive/tree/tree_1.0-32.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/tree_1.0-33.tar.gz
 Requires:         R-grDevices R-graphics R-stats 
 Requires:         R-MASS 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-grDevices R-graphics R-stats
@@ -43,3 +43,13 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/po
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0_29-1
++ Revision: 775318
+- Import R-tree
+- Import R-tree
+
+
+
