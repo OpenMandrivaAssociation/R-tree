@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.0.33
-Release:          1
+Release:          2
 Summary:          Classification and regression trees
 Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
