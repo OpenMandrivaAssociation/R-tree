@@ -8,7 +8,7 @@ Summary:          Classification and regression trees
 
 Group:            Sciences/Mathematics
 License:          GPL-2 | GPL-3
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/tree_1.0-35.tar.gz
 Requires:         R-grDevices R-graphics R-stats 
 Requires:         R-MASS 
